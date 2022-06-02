@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Show index"
+    android:textColor="#131111"
+    android:textAlignment="center"
+    android:textStyle="bold"
+    android:textSize="40dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="#DCD6C9"
+    android:layout_margin="20dp"
+    android:id="@+id/showindex1"
+    ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Show index"
+        android:textColor="#131111"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#DCD6C9"
+        android:layout_margin="20dp"
+        android:id="@+id/showindex2"
+        ></TextView>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Give your first name"
+        android:textColor="#131111"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#DCD6C9"
+        android:layout_margin="20dp"
+        android:id="@+id/firstnameindex"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/secondnameindex"
+        android:layout_width="377dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="#D8C8BD"
+        android:gravity="center"
+        android:hint="Give your second name"
+        android:textAlignment="center"
+        android:textColor="#090606"
+        android:textSize="30dp"
+        android:textStyle="bold"></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:id="@+id/enter"
+        ></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#ffff"
+        android:textAlignment="center"
+        android:text="Reset"
+        android:layout_margin="20dp"
+        android:enabled="false"
+        android:id="@+id/set"
+        ></Button>
+
+
+</LinearLayout>
