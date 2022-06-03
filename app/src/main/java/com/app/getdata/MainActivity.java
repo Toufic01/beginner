@@ -81,7 +81,10 @@ public class MainActivity extends AppCompatActivity {
                 String w = Firstname.getText().toString().trim();
                 String q = Secondname.getText().toString().trim();
 
-                reset.setEnabled(!TextUtils.isEmpty(w) || !TextUtils.isEmpty(q));
+                if(!TextUtils.isEmpty(w) || !TextUtils.isEmpty(q))
+                {
+                    reset.setEnabled(true);
+                }
 
 
             }
